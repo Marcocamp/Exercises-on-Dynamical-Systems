@@ -10,7 +10,6 @@ L’obiettivo è fornire un supporto pratico allo studio universitario della teo
 ## Contenuto del repository
 
 - `Esercizi/` — script Python con implementazioni di modelli dinamici, simulazioni numeriche e analisi delle risposte.
-- Notebook Jupyter (`Lezione_03.ipynb`, `coupled_spring_mass.ipynb`, ecc.) con derivazioni, simulazioni guidate e grafici generati tramite integrazione numerica.
 - `img/` — immagini e figure prodotte durante gli esercizi.
 - `LICENSE` — licenza Apache-2.0.
 
@@ -26,7 +25,7 @@ Gli esercizi fanno riferimento a concetti fondamentali della teoria dei sistemi 
 - risposta libera e risposta forzata;
 - integrazione numerica (metodi di Runge–Kutta tramite `scipy.integrate`).
 
-Il livello richiesto è compatibile con un corso universitario di Automatica o Dinamica dei Sistemi.
+Il livello richiesto è compatibile con un corso universitario di Automatica o Sistemi Dinamici.
 
 ---
 
@@ -34,7 +33,8 @@ Il livello richiesto è compatibile con un corso universitario di Automatica o D
 
 Gli esempi utilizzano tipicamente:
 
-- Python ≥ 3.9  
+- Python ≥ 3.12.11
+- Control  
 - NumPy  
 - SciPy  
 - Matplotlib  
